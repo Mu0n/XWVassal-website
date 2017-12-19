@@ -227,6 +227,11 @@ nav a:hover {
 .latest .content * + * {
   margin-top: 20px;
 }
+
+.latest .googleDoc{
+  border: 1px solid #ddd;
+}
+
 ul {
   margin-left: 20px;
 }
