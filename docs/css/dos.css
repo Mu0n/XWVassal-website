@@ -221,9 +221,6 @@ nav a:hover {
   width: 100%;
   max-width: 1024px;
 }
-.latest .content {
-  padding: 2rem;
-}
 .latest .content * + * {
   margin-top: 20px;
 }
