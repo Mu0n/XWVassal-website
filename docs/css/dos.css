@@ -226,7 +226,7 @@ nav a:hover {
 }
 
 .latest .googleDoc{
-  border: 1px solid #ddd;
+  border: none;
 }
 
 ul {
