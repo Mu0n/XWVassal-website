@@ -1,10 +1,14 @@
 [
   {
     "name" : "Base Game",
-    "url" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/"
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json",
+    "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
+    "wantFullControl" : "false"
   },
   {
-    "name" : "X-Wing Supremacy",
-    "url" : "uhh...not yet"
+    "name" : "HWK R Cool altmode",
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
+    "dispatchers" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
+    "wantFullControl" : "false"
   }
 ]
