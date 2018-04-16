@@ -1,12 +1,14 @@
 [
   {
     "name" : "Base Game",
+    "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs.",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
   },
   {
-    "name" : "HWK R Cool altmode",
+    "name" : "HWK R Cool Altmode",
+    "description" : "Created by Mu0n to test this feature. Spawn a HWK-290 and see what happens (ship stats and dial).",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
