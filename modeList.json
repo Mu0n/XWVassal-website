@@ -2,7 +2,7 @@
   {
     "name" : "Base Game",
     "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs.",
-    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json",
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
   },
