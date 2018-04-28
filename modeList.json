@@ -8,7 +8,7 @@
   },
   {
     "name" : "HWK R Cool Altmode",
-    "description" : "Created by Mu0n to test this feature. Spawn a HWK-290 and see what happens (ship stats and dial).",
+    "description" : "Created by Mu0n to test this feature. Spawn a rebel HWk-290 rebel operative pilot and see how its stats is changed from its default pilot skill 2 to 11.",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
