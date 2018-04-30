@@ -2,14 +2,14 @@
   {
     "name" : "Base Game",
     "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs.",
-    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
   },
   {
     "name" : "HWK R Cool Altmode",
     "description" : "Created by Mu0n to test this feature. Spawn a rebel HWk-290 rebel operative pilot and see how its stats is changed from its default pilot skill 2 to 11.",
-    "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
   }
