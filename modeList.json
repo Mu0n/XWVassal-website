@@ -12,5 +12,12 @@
     "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
+  },
+  {
+    "name" : "X-Wing Supremacy",
+    "description" : "description to be filled in by oilerx7 and co later on!",
+    "basedataurl" : "https://raw.githubusercontent.com/Oilerx7/XWingSupremacyOTA/master/",
+    "dispatchers" : "https://raw.githubusercontent.com/Oilerx7/XWingSupremacyOTA/master/json/",
+    "wantFullControl" : "true"
   }
 ]
