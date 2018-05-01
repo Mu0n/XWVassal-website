@@ -1,5 +1,14 @@
-April 30th, 2018 X-Wing Vassal news
+May 1st, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
-The new TIE Reaper stuff can now be used by the vassal module (no new module download required). Not all squad builders support these new items yet (but soon). Since the dial is known, the TIE Reaper is functional right away in Vassal. Placeholder images have to be used for now.
+The new TIE Reaper stuff can now be used by the vassal module (no new module download required). Not all squad builders support these new items yet (but soon). Since the dial is known, the TIE Reaper is functional right away in Vassal.
+
+Known issues: Renegade Refit does not do -1 on elite talent. (fixed in next module version).
+U-Wing does not flip its wings in its image with ALT-U
+Double-sided cards don't flip to their other side with CTRL-F
+Some repositioning options no longer show up in the right click menu of some ships (but the shortcuts work, check under 'How To & Shortcuts' of the main window.
+
+I'm wondering if anyone bothers to read these and if I'm wasting my time...
+
+Happy pew pew y'all
