@@ -76,12 +76,16 @@ function genFromDD(form,faction) {
 	kr.src="KR.png";
 	var kw = new Image(); //k-turn white
 	kw.src="KW.png";
+	var bb = new Image(); //bank left blue
+	bb.src="BB.png";
 	var bg = new Image(); //bank left green
 	bg.src="BG.png";
 	var bw = new Image(); //bank left white
 	bw.src="BW.png";
 	var br = new Image(); //bank left red
 	br.src="BR.png";
+	var nb = new Image(); //bank right blue
+	nb.src="NB.png";
 	var ng = new Image(); //bank right green
 	ng.src="NG.png";
 	var nw = new Image(); //bank right white
@@ -100,6 +104,8 @@ function genFromDD(form,faction) {
 	yw.src="YW.png";
 	var yr = new Image(); //turn right red
 	yr.src="YR.png";
+	var fb = new Image(); //forward blue
+	fb.src="FB.png";
 	var fg = new Image(); //forward green
 	fg.src="FG.png";
 	var fw = new Image(); //forward white
@@ -223,6 +229,9 @@ function genFromDD(form,faction) {
 		case "KW":
 			chosenhead.src = kw.src;
 			break;
+		case "FB":
+			chosenhead.src = fb.src;
+			break;
 		case "FG":
 			chosenhead.src = fg.src;
 			break;
@@ -259,11 +268,17 @@ function genFromDD(form,faction) {
 		case "BG":
 			chosenhead.src = bg.src;
 			break;
+		case "BB":
+			chosenhead.src = bb.src;
+			break;
 		case "NR":
 			chosenhead.src = nr.src;
 			break;
 		case "NW":
 			chosenhead.src = nw.src;
+			break;
+		case "NB":
+			chosenhead.src = nb.src;
 			break;
 		case "NG":
 			chosenhead.src = ng.src;
