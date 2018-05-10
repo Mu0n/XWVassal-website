@@ -35,19 +35,19 @@ function genFromDD(form,faction) {
 	    TestVar = form.dropdown3.options[form.dropdown3.selectedIndex].value;
 		break;
 	case 4:
-	  TestVar = form.dropdown.options[form.dropdown4.selectedIndex].value;
+	  TestVar = form.dropdown4.options[form.dropdown4.selectedIndex].value;
 		break;
 	  case 5:
-	    TestVar = form.dropdown2.options[form.dropdown5.selectedIndex].value;
+	    TestVar = form.dropdown5.options[form.dropdown5.selectedIndex].value;
 		break;
 	case 6:
-	    TestVar = form.dropdown3.options[form.dropdown6.selectedIndex].value;
+	    TestVar = form.dropdown6.options[form.dropdown6.selectedIndex].value;
 		break;
 	case 7:
-	    TestVar = form.dropdown2.options[form.dropdown7.selectedIndex].value;
+	    TestVar = form.dropdown7.options[form.dropdown7.selectedIndex].value;
 		break;
 	case 8:
-	    TestVar = form.dropdown3.options[form.dropdown8.selectedIndex].value;
+	    TestVar = form.dropdown8.options[form.dropdown8.selectedIndex].value;
 		break;
 	  }
 	  form.inputbox.value = TestVar;
@@ -459,6 +459,7 @@ function drawAdial(theShip){
 <option value="B/SF-17 Bomber.0OR,1TR,1BG,1FG,1NG,1YR,2TW,2BW,2FG,2NW,2YW,3BW,3FW,3NW">B/SF-17 Bomber</option>
 </select>
 <INPUT TYPE="button" NAME="button3" Value="Submit ship" onClick="genFromDD(this.form,1)">
+<br>
 <select name="dropdown2">
 <option value="">Select imperial ship</option>
 <option value="TIE Fighter.1TW,1YW,2TW,2BG,2FG,2NG,2YW,3TW,3BW,3FG,3NW,3YW,3KR,4FW,4KR,5FW">TIE Fighter</option>
@@ -482,6 +483,7 @@ function drawAdial(theShip){
 <option value="TIE Reaper.0OR,1LR,1TW,1BW,1FG,1NW,1YW,1PR,2TR,2BG,2FG,2NG,2YR,3BR,3FG,3NR">TIE Reaper</option>
 </select>
 <INPUT TYPE="button" NAME="button4" Value="Submit ship" onClick="genFromDD(this.form,2)">
+<br>
 <select name="dropdown3">
 <option value="">Select scum ship</option>
 <option value="Y-Wing.1BW,1FG,1NW,2TW,2BW,2FG,2NW,2YW,3TR,3BW,3FW,3NW,3YR,4FR,4KR">Y-Wing</option>
@@ -502,27 +504,32 @@ function drawAdial(theShip){
 <option value="M12-L Kimogila.1TR,1BW,1FG,1NW,1YR,2TR,2BG,2FG,2NG,2YR,3TW,3BW,3FG,3NW,3YW,4KR">M12-L Kimogila Fighter</option>
 </select>
 <INPUT TYPE="button" NAME="button5" Value="Submit ship" onClick="genFromDD(this.form,3)">
+<br>
 <select name="dropdown4">
 <option value="">Select 2.0 rebel ship</option>
 <option value="T-65 X-Wing.1BB,1FB,1NB,2TW,2BB,2FB,2NB,2YW,3ER,3TW,3BW,3FW,3NW,3YW,3RR,4FW,4KR">T-65 X-Wing</option>
 <option value="BTL-A4 Y-Wing.1BB,1FB,1NB,2TW,2BW,2FW,"2NW,2YW,3TR,3BW,3FW,3NW,3YR,4FR,4KR">BTL-A4 Y-Wing</option>
 </select>
 <INPUT TYPE="button" NAME="button6" Value="Submit ship" onClick="genFromDD(this.form,4)">
+<br>
 <select name="dropdown5">
 <option value="">Select 2.0 imperial ship</option>
 <option value="TIE Advanced x1.1BG,1FW,1NG,2TW,2BG,2FG,2NG,2TW,3ER,3TW,3BW,3FG,3NW,3YW,3RR,4FW,4KR,5FW">TIE Advanced x1</option>
 </select>
 <INPUT TYPE="button" NAME="button7" Value="Submit ship" onClick="genFromDD(this.form,5)">
+<br>
 <select name="dropdown6">
 <option value="">Select 2.0 scum ship</option>
 <option value="Firespray-31.1TW,1BG,1FG,1NG,1YW,2TW,2BW,2FG,2NW,2YT,3ER,3BW,3FG,3NW,3RR,4FW,4KR">Firespray-31</option>
 <option value="Protectorate Starf.1BW,1FG,1NW,2TW,2BW,2FG,2NW,2YW,3TR,3BW,3FW,3NW,3YR,4FR,4KR">Protectorate Starfighter</option>
 </select>
 <INPUT TYPE="button" NAME="button8" Value="Submit ship" onClick="genFromDD(this.form,6)">
+<br>
 <select name="dropdown7">
 <option value="">Select 2.0 resistance ship</option>
 </select>
 <INPUT TYPE="button" NAME="button9" Value="Submit ship" onClick="genFromDD(this.form,7)">
+<br>
 <select name="dropdown8">
 <option value="">Select 2.0 first order ship</option>
 </select>
