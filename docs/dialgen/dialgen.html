@@ -92,12 +92,16 @@ function genFromDD(form,faction) {
 	nw.src="NW.png";
 	var nr = new Image(); //bank right red
 	nr.src="NR.png";
+	var tb = new Image(); //turn left blue
+	tb.src="TB.png";
 	var tg = new Image(); //turn left green
 	tg.src="TG.png";
 	var tw = new Image(); //turn left white
 	tw.src="TW.png";
 	var tr = new Image(); //turn left red
 	tr.src="TR.png";
+	var yb = new Image(); //turn right blue
+	yb.src="YB.png";
 	var yg = new Image(); //turn right green
 	yg.src="YG.png";
 	var yw = new Image(); //turn right white
@@ -250,6 +254,9 @@ function genFromDD(form,faction) {
 		case "TG":
 			chosenhead.src = tg.src;
 			break;
+		case "TB":
+			chosenhead.src = tb.src;
+			break;
 		case "YR":
 			chosenhead.src = yr.src;
 			break;
@@ -258,6 +265,9 @@ function genFromDD(form,faction) {
 			break;
 		case "YG":
 			chosenhead.src = yg.src;
+			break;		
+		case "YB":
+			chosenhead.src = yb.src;
 			break;
 		case "BR":
 			chosenhead.src = br.src;
@@ -359,7 +369,7 @@ function genFromDD(form,faction) {
 
 function drawAdial(theShip){
 		
-	  context.beginPath();
+      context.beginPath();
       context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
       context.fillStyle = '#333333';
       context.fill();
@@ -367,15 +377,13 @@ function drawAdial(theShip){
       context.strokeStyle = '#333333';
       context.stroke();
 	
-	
-	  
 	var nbmoves = getNbMoves(theShip); //temp var number of moves
 	var anglepermove = 2*Math.PI/nbmoves; //2pi divided by number of moves
 	
 	var shipmoves = getOnlyMoves(theShip);
 	stripCanvas.width=nbmoves*iconsz;
 	
-	 context2.rect(0, 0, nbmoves*iconsz, 90);
+      context2.rect(0, 0, nbmoves*iconsz, 90);
       context2.fillStyle = '#333333';
       context2.fill();
 	  
@@ -402,9 +410,6 @@ function drawAdial(theShip){
 		
 		ystrip = 30+iconsz;
 		drawRotatedImage(gfx2,xstrip,ystrip,0,2);
-		
-		
-		
 		}
 		);
 		
@@ -424,10 +429,6 @@ function drawAdial(theShip){
 }
 	  
 	  drawAdial(T70XWING);
-
-
-
-	  
     </script>
 
 <FORM NAME="myform" style="position:absolute; TOP:360px;LEFT:0px" ACTION="" METHOD="GET" >Enter the dial codestring: <BR>
@@ -516,6 +517,7 @@ function drawAdial(theShip){
 <option value="">Select 2.0 imperial ship</option>
 <option value="TIE Fighter.1TW,1YW,2TW,2BB,2FB,2NB,2YW,3TW,3BW,3FB,3NW,3YW,3KR,4FW,4KR,5FW">TIE Fighter</option>
 <option value="TIE Advanced x1.1BB,1FW,1NB,2TW,2BB,2FB,2NB,2TW,3ER,3TW,3BW,3FB,3NW,3YW,3RR,4FW,4KR,5FW">TIE Advanced x1</option>
+<option value="Lambda Shuttle.0OR,1BB,1FB,1NB,2TR,2BW,2FB,2NW,2YR,3BR,3FW,3NR">Lambda Shuttle (rumored)</option>
 </select>
 <INPUT TYPE="button" NAME="button7" Value="Submit ship" onClick="genFromDD(this.form,5)">
 <br>
