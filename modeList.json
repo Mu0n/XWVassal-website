@@ -1,7 +1,7 @@
 [
   {
     "name" : "Base Game",
-    "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs.",
+    "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs. The first edition is currently supported in this mode and the 2nd edition will eventually be supported through here as well.",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
