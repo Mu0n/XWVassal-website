@@ -1,11 +1,12 @@
-June 15th, 2018 X-Wing Vassal news
+June 25th, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
-v8.0.5 was just released. Some work started on 2.0.
+The first edition of X-Wing is practically complete if you get v8.0.5 of the module.
 
 Known issues: 
 --Some repositioning options no longer show up in the right click menu of some ships (but the shortcuts work, check under 'How To & Shortcuts' of the main window.
 --Recorded games (logfiles) will stack on the autorange firing options lines throughout the match without ever removing them
 --ALT-H shouldn't been used for Tallon Roll 1 right, it's in conflict with Hull+1 ship stat altering...
+--The last items that are missing are the graphics for the Scrambled and Optimized Prototype condition tokens. You'll be able to have them inside the next version of the module.
 
