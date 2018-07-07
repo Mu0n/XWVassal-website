@@ -7,6 +7,13 @@
     "wantFullControl" : "false"
   },
   {
+    "name" : "2nd Edition beta"
+    "description" : "Beta version of the 2nd edition of the base game. Temporary squads are spawned by entering the following keywords in the autospawn text field, without quotes: 'tcdemo1' (empire: Feroph, Stele and Blacks) - 'tcdemo2' (rebel: tubes + gray + Jek)",
+    "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/",
+    "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
+    "wantFullControl" : "false"
+  },
+  {
     "name" : "HWK R Cool Altmode",
     "description" : "Created by Mu0n to test this feature. Spawn a rebel HWk-290 rebel operative pilot and see how its stats is changed from its default pilot skill 2 to 11.",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0nHub/XWVassalOTA/master/",
