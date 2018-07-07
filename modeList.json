@@ -8,7 +8,7 @@
   },
   {
     "name" : "2nd Edition beta",
-    "description" : "Beta version of the 2nd edition of the base game. Temporary squads are spawned by entering the following keywords in the autospawn text field: tcdemo1 (empire: Feroph, Stele and Blacks) - tcdemo2 (rebel: tubes + gray + Jek)",
+    "description" : "(will require a vassal module version AFTER 8.0.5) Beta version of the 2nd edition of the base game. Temporary squads are spawned by entering the following keywords in the autospawn text field: tcdemo1 (empire: Feroph, Stele and Blacks) - tcdemo2 (rebel: tubes + gray + Jek)",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
