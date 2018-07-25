@@ -1,10 +1,10 @@
-July 17th, 2018 X-Wing Vassal news
+July 25th, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
-*** New released hotfix (a day after v8.0.8, we get v8.0.9) to solve the autospawn bug where loading a squad URL yielded no response and no squad
-
-Test out 2.0 proxy squads by typing 'tcdemo1' and 'tcdemo2' in the autospawn (requires v8.0.8 of the module)
+You can proxy 2.0 lists:
+8.0.8+: type 'tcdemo1' and 'tcdemo2' in the autospawn textbox (without single quotes)
+8.1.0+: type 'worldsdemo1' and 'worldsdemo2' in the autospawn textbox (without single quotes)
 
 Known issues: 
 --Recorded games (logfiles) will stack on the autorange firing options lines throughout the match without ever removing them
