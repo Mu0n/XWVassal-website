@@ -25,10 +25,10 @@ function genFromDD(form,faction) {
 	  
 	  switch(faction)
 	  {
-	  case 1:
+	case 1:
 	  TestVar = form.dropdown.options[form.dropdown.selectedIndex].value;
 		break;
-	  case 2:
+	case 2:
 	    TestVar = form.dropdown2.options[form.dropdown2.selectedIndex].value;
 		break;
 	case 3:
@@ -48,6 +48,12 @@ function genFromDD(form,faction) {
 		break;
 	case 8:
 	    TestVar = form.dropdown8.options[form.dropdown8.selectedIndex].value;
+		break;
+	case 9:
+	    TestVar = form.dropdown9.options[form.dropdown9.selectedIndex].value;
+		break;
+	case 10:
+	    TestVar = form.dropdown10.options[form.dropdown10.selectedIndex].value;
 		break;
 	  }
 	  form.inputbox.value = TestVar;
@@ -568,18 +574,35 @@ function drawAdial(theShip){
 <option value="M12-L Kimogila.1TR,1BW,1FB,1NW,1YR,2TW,2BB,2FB,2NB,2YW,3TW,3BW,3FB,3NW,3YW,4KR">M12-L Kimogila Fighter</option>
 <option value="YT-1300.1BW,1FB,1NW,2TW,2BB,2FB,2NB,2YW,3LR,3TW,3BW,3FB,3NW,3YW,3PR,4FW,4KR">Modified YT-1300 Light Freighter</option>
 <option value="Escape Craft.0OR,1BB,1FB,1NB,2TR,2BW,2FB,2NW,2YR,3BW,3FW,3NW,3KR">Escape Craft</option>
+  <option value="Modified TIE/ln.1TW,1YW,2TW,2BB,2FB,2NB,2YW,3TW,3BW,3FB,3NW,3YW,3KR,4FW,5FR">Modified TIE/ln Fighter</option>
 </select>
 <INPUT TYPE="button" NAME="button8" Value="Submit ship" onClick="genFromDD(this.form,6)">
 <br>
 <select name="dropdown7">
 <option value="">Select 2.0 resistance ship</option>
+  <option value="T-70 X-Wing.1BB,1FB,1NB,2TW,2BB,2FB,2NB,2YW,3ER,3TW,3BW,3FB,3NW,3YW,3RR,4FW,4KR">T-70 X-Wing</option>
+  <option value="RZ-2 A-Wing.1TW,1YW,2TB,2BB,2FB,2NB,2YB,3LR,3TW,3BB,3FB,3NB,3YW,3PR,4FB,5FB,5KR">RZ-2 A-Wing</option>
+  <option value="Resistance Bomber.0OR,1TR,1BB,1FB,1NB,1YR,2TW,2BW,2FB,2NW,2YW,3BR,3FW,3NR">Resistance Bomber (speculation)</option>
 </select>
 <INPUT TYPE="button" NAME="button9" Value="Submit ship" onClick="genFromDD(this.form,7)">
 <br>
 <select name="dropdown8">
 <option value="">Select 2.0 first order ship</option>
+  <option value="TIE/fo Fighter.1TW,1YW,2LR,2TB,2BB,2FB,2NB,2YB,2PR,3TW,3BW,3FB,3NW,3YW,4FW,4KR,5FW">TIE/fo Fighter</option>
+  <option value="Upsilon.0OR,1TR,1BW,1FB,1NW,1YR,2TW,2BB,2FB,2NB,2YW,3TR,3BW,3FW,3NW,3YR">Upsilon-class Shuttle</option>
+  <option value="TIE Silencer.1TW,1YW,2TB,2BB,2FB,2NB,2YB,3ER,3TW,3BW,3FB,3NW,3YW,3RR,4FB,4KR,5FB">TIE Silencer</option>
 </select>
 <INPUT TYPE="button" NAME="button10" Value="Submit ship" onClick="genFromDD(this.form,8)">
+    <br>
+    <select name="dropdown9">
+      <option value="">Select 2.0 Galactic Senate ship</option>
+    </select>
+    <INPUT TYPE="button" NAME="button11" Value="Submit ship" onClick="genFromDD(this.form,9)">
+    <br>
+    <select name="dropdown10">
+      <option value="">Select 2.0 Separatist Army ship</option>
+    </select>
+    <INPUT TYPE="button" NAME="button12" Value="Submit ship" onClick="genFromDD(this.form,10)">
 </form>
 
 <p style="position:absolute; TOP:590px;LEFT:0px"><strong>Guide to writing a dial script:</strong><br>
