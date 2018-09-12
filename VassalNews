@@ -1,10 +1,9 @@
-July 25th, 2018 X-Wing Vassal news
+September 12th, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
-You can proxy 2.0 lists:
-8.0.8+: type 'tcdemo1' and 'tcdemo2' in the autospawn textbox (without single quotes)
-8.1.0+: type 'worldsdemo1' and 'worldsdemo2' in the autospawn textbox (without single quotes)
+The 2nd edition is now fully playable in this module of X-Wing!
+The 1st edition is still playable, but to save space, the art assets were stripped out. To get them back, click on 'Content Checker' and select download all.
 
 Known issues: 
 --Recorded games (logfiles) will stack on the autorange firing options lines throughout the match without ever removing them
