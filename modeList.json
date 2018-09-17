@@ -1,7 +1,7 @@
 [
   {
     "name" : "Base Game",
-    "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs. The first edition is currently supported in this mode. <html><p>To test some 2.0 squads<p>With module version 8.0.8+: enter 'tcdemo1' or 'tcdemo2' (without single quotes) in the textbox. <br>tcdemo1: Benthic + Edrio + Jek + Gray Squadron Bomber Y-Wing. <br>tcdemo2: Captain Feroph + Maarek Stele + 3x Black Squadron Aces.<p>With module version 8.1.0+: enter 'worldsdemo1' or 'worldsdemo2' (without single quotes) in the textbox.<br>worldsdemo1: Vader + 3x Black Squadron Aces.<br>worldsdemo2: Boba + Joy Rekkoff + Zealous Recruit.<p>Check the card (placeholder) effects with CTRL-Q.</html>",
+    "description" : "Fantasy Flight Games' set of values, card capabilities and stats played around the world, occasionally changed by their FAQs. The first edition is currently supported in this mode.",
     "basedataurl" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/",
     "dispatchers" : "https://raw.githubusercontent.com/Mu0n/XWVassalOTA/master/json/",
     "wantFullControl" : "false"
