@@ -1,9 +1,8 @@
-September 12th, 2018 X-Wing Vassal news
+November 28th, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
-The 2nd edition is now fully playable in this module of X-Wing!
-The 1st edition is still playable, but to save space, the art assets were stripped out. To get them back, click on 'Content Checker' and select download all.
+8.2.5 is out: Squad URLs now supported in the autospawner.
 
 Known issues: 
 --Recorded games (logfiles) will stack on the autorange firing options lines throughout the match without ever removing them
