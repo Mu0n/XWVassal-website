@@ -1,8 +1,9 @@
-November 28th, 2018 X-Wing Vassal news
+November 30th, 2018 X-Wing Vassal news
 
 The X-Wing Vassal League home website is now officially live at this address: http://xwvassal.info
 
 8.2.5 is out: Squad URLs now supported in the autospawner.
+Wave 2 for 2nd edition: All the missing ship graphics and the missing dials were added today. Some ship stats are missing and will automatically be corrected in the next few days once xwing-data2 is updated externally. Expect the content flasher to blink black/white, please go update. More content will follow (pilot and upgrade images) will follow soon, which will again make the content checker blink. For now, you can still play with placeholder images for the cards as usual.
 
 Known issues: 
 --Recorded games (logfiles) will stack on the autorange firing options lines throughout the match without ever removing them
