@@ -4,8 +4,7 @@
 
 @font-face {
     font-family: 'x-wing-symbolswing-symbols';
-    src: url('xwing-miniatures-webfont.woff2') format('woff2'),
-         url('xwing-miniatures-webfont.woff') format('woff');
+    src: url('xwing-miniatures.ttf');
     font-weight: normal;
     font-style: normal;
 
