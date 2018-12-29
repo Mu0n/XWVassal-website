@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-  <base href="./img/" target="_blank">
+  <base target="_blank">
     <style>
       body {
         margin: 0px;
         padding: 0px;
       }
     </style>
-	  <link rel="stylesheet" href="../stylesheet.css" type="text/css" charset="utf-8" />
+	  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 <script>	
 	function generateDial (form) {
     var TestVar = form.inputbox.value;
@@ -81,86 +81,86 @@ function genFromDD(form,faction) {
       var context2 = stripCanvas.getContext('2d');
 	
 	var kr = new Image(); //k-turn red
-	kr.src="KR.png";
+	kr.src="/img/KR.png";
 	var kw = new Image(); //k-turn white
-	kw.src="KW.png";
+	kw.src="/img/KW.png";
 	var bb = new Image(); //bank left blue
-	bb.src="BB.png";
+	bb.src="/img/BB.png";
 	var bg = new Image(); //bank left green
-	bg.src="BG.png";
+	bg.src="/img/BG.png";
 	var bw = new Image(); //bank left white
-	bw.src="BW.png";
+	bw.src="/img/BW.png";
 	var br = new Image(); //bank left red
-	br.src="BR.png";
+	br.src="/img/BR.png";
 	var nb = new Image(); //bank right blue
-	nb.src="NB.png";
+	nb.src="/img/NB.png";
 	var ng = new Image(); //bank right green
-	ng.src="NG.png";
+	ng.src="/img/NG.png";
 	var nw = new Image(); //bank right white
-	nw.src="NW.png";
+	nw.src="/img/NW.png";
 	var nr = new Image(); //bank right red
-	nr.src="NR.png";
+	nr.src="/img/NR.png";
 	var tb = new Image(); //turn left blue
-	tb.src="TB.png";
+	tb.src="/img/TB.png";
 	var tg = new Image(); //turn left green
-	tg.src="TG.png";
+	tg.src="/img/TG.png";
 	var tw = new Image(); //turn left white
-	tw.src="TW.png";
+	tw.src="/img/TW.png";
 	var tr = new Image(); //turn left red
-	tr.src="TR.png";
+	tr.src="/img/TR.png";
 	var yb = new Image(); //turn right blue
-	yb.src="YB.png";
+	yb.src="/img/YB.png";
 	var yg = new Image(); //turn right green
-	yg.src="YG.png";
+	yg.src="/img/YG.png";
 	var yw = new Image(); //turn right white
-	yw.src="YW.png";
+	yw.src="/img/YW.png";
 	var yr = new Image(); //turn right red
-	yr.src="YR.png";
+	yr.src="/img/YR.png";
 	var fb = new Image(); //forward blue
-	fb.src="FB.png";
+	fb.src="/img/FB.png";
 	var fg = new Image(); //forward green
-	fg.src="FG.png";
+	fg.src="/img/FG.png";
 	var fw = new Image(); //forward white
-	fw.src="FW.png";
+	fw.src="/img/FW.png";
 	var fr = new Image(); //forward red
-	fr.src="FR.png";
+	fr.src="/img/FR.png";
 	var lg = new Image(); //segnor's loop left green
-	lg.src="LG.png";
+	lg.src="/img/LG.png";
 	var lw = new Image(); //segnor's loop left white
-	lw.src="LW.png";
+	lw.src="/img/LW.png";
 	var lr = new Image(); //segnor's loop left red
-	lr.src="LR.png";
+	lr.src="/img/LR.png";
 	var pg = new Image(); //segnor's loop right green
-	pg.src="PG.png";
+	pg.src="/img/PG.png";
 	var pw = new Image(); //segnor's loop right white
-	pw.src="PW.png";
+	pw.src="/img/PW.png";
 	var pr = new Image(); //segnor's loop right red
-	pr.src="PR.png";
+	pr.src="/img/PR.png";
 	var er = new Image(); //Tallon roll left red
-	er.src="ER.png";
+	er.src="/img/ER.png";
 	var rr = new Image(); //Tallon roll right red
-	rr.src="RR.png";
+	rr.src="/img/RR.png";
 	var or = new Image(); //Stop red
-	or.src="OR.png";
+	or.src="/img/OR.png";
 	var ar = new Image(); //Reverse bank left red
-	ar.src="AR.png";
+	ar.src="/img/AR.png";
 	var sr = new Image(); //Reverse red
-	sr.src="SR.png";
+	sr.src="/img/SR.png";
 	var dr = new Image(); //Reverse bank right red
-	dr.src="DR.png";
+	dr.src="/img/DR.png";
 	
 	var s0 = new Image();
-	s0.src="0.png";
+	s0.src="/img/0.png";
 	var s1 = new Image();
-	s1.src="1.png";
+	s1.src="/img/1.png";
 	var s2 = new Image();
-	s2.src="2.png";
+	s2.src="/img/2.png";
 	var s3 = new Image();
-	s3.src="3.png";
+	s3.src="/img/3.png";
 	var s4 = new Image();
-	s4.src="4.png";
+	s4.src="/img/4.png";
 	var s5 = new Image();
-	s5.src="5.png";	
+	s5.src="/img/5.png";	
 	
 	
 	var XWING="X-Wing.1BG,1FG,1NG,2TW,2BW,2FG,2NW,2YW,3FW,4FW,4KR";
@@ -620,7 +620,7 @@ function drawAdial(theShip){
 </form>
 	    <p></p><p></p>
 <p style="position:absolute; TOP:890px;LEFT:0px"><strong>Guide to writing a dial script:</strong><br>
-<img src="guide.jpg"/><br>
+<img src="/img/guide.jpg"/><br>
 <strong>Format:</strong> Name_of_ship.#LC,#LC,#LC,etc<br>
 Use a dot to separate the ship tag from the maneuver list.<br>
 where # is the speed of a maneuver<br>
