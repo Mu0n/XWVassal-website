@@ -387,6 +387,9 @@ function drawAdial(theShip){
 	context.arc(centerX, centerY, innerRadius, 0, 2 * Math.PI, false);
 	context.fillStyle = '#000000';
 	context.fill();
+	context.lineWidth = 2;
+      	context.strokeStyle = '#000000';
+      	context.stroke();
 	
 	var nbmoves = getNbMoves(theShip); //temp var number of moves
 	var anglepermove = 2*Math.PI/nbmoves; //2pi divided by number of moves
