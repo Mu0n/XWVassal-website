@@ -66,7 +66,7 @@
 
   </head>
 
-  <body bgcolor="black">
+  <body bgcolor="white">
     <canvas id="myCanvas" width="181" height="192"></canvas>
     <canvas id="stripDial" style="position:absolute;left:0px;top:270px;" width="540" height="90"></canvas>
     <canvas id="numberTest" style="position:absolute;left:300px;top:0px;" width="40" height="40"></canvas>
@@ -303,20 +303,20 @@ shipmoves.forEach(function(element, index, array) {
           context2.font = '12pt Calibri'; context2.fillStyle = '#ffffff'; context2.textAlign = 'left'; context2.fillText(getShipName(theShip), 0, 20);
 
 
-          context3.beginPath();
-          context3.textAlign = 'center';
+          //context3.beginPath();
+          //context3.textAlign = 'center';
           //context3.font = '34pt kimberley';
-          context3.font = '40pt x-wing-symbolswing-symbols';
+          //context3.font = '40pt x-wing-symbolswing-symbols';
           
           //white
           //context3.fillStyle = 'white';
           //red
           //context3.fillStyle = '#ec1f21';
           //blue
-          context3.fillStyle = '#1e90ff';
+          //context3.fillStyle = '#1e90ff';
           
-          context3.fillText('9', 20, 35);
-          context3.fill();
+          //context3.fillText('9', 20, 35);
+          //context3.fill();
           context.closePath(); context2.closePath(); context3.closePath();
 
 
@@ -478,7 +478,7 @@ shipmoves.forEach(function(element, index, array) {
         <INPUT TYPE="button" NAME="button9" Value="Submit ship" onClick="genFromDD(this.form,7)">
         <br>
         <select name="dropdown8">
-<option value="">Select 2.0 first order ship</option>
+<option value="">Select 2.0 First Order ship</option>
   <option value="TIE/fo Fighter.1TW,1YW,2LR,2TB,2BB,2FB,2NB,2YB,2PR,3TW,3BW,3FB,3NW,3YW,4FW,4KR,5FW">TIE/fo Fighter</option>
   <option value="TIE/SF Fighter.1TR,1BB,1FB,1NB,1YR,2TW,2BB,2FB,2NB,2YW,3LR,3TW,3BW,3FB,3NW,3YW,3PR,4FW,5FW">TIEs/sf Fighter</option>
   <option value="Upsilon.0OR,1TR,1BW,1FB,1NW,1YR,2TW,2BB,2FB,2NB,2YW,3TR,3BW,3FW,3NW,3YR">Upsilon-class Shuttle</option>
