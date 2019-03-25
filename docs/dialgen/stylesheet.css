@@ -9,3 +9,11 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'kimberley';
+    src: url('kimberley-bl.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
