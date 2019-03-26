@@ -4,3 +4,5 @@ The X-Wing Vassal League home website is now officially live at this address: ht
 SEASON 7 HAS STARTED
 
 v8.5.0 is out today! Full Wave 3. All the Tokens (use the bomb spawner to get remotes and the debris)! Details here: https://xwvassal.wordpress.com/2019/03/25/x-wing-vassal-module-8-5-0-wave-3-mouse-gui-v2-5-bug-fixes/
+
+Known issue in 8.5.0: If you "free rotate" an obstacle (activated with CTRL-R while an obstacle is selected), the overlap detection routine will not work with the new orientation. Use the left/right arrow key to re-orient obstacles for the time being. Long term solution (next module) will be to keep the free rotation like it was before. 
