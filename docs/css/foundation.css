@@ -2649,7 +2649,7 @@ ul.pagination {
       font-size: 1rem; }
       .accordion dd > a:hover {
 	  color: #ffffff;
-        background: #222222; }
+        background: #000033; }
   .accordion .content {
     display: none;
     padding: 0.9375rem; }
