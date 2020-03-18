@@ -3810,7 +3810,7 @@ dialog[open] {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #000033;
   color: white;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -3892,7 +3892,7 @@ dialog[open] {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: #000033;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -3913,7 +3913,7 @@ dialog[open] {
   bottom: 0;
   position: absolute;
   overflow-y: auto;
-  background: #333333;
+  background: #000033;
   z-index: 1001;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -4375,7 +4375,7 @@ select::-ms-expand {
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
-  color: #333333;
+  color: #000033;
   border-color: #cccccc; }
   span.prefix.radius, label.prefix.radius {
     border-radius: 0;
@@ -4385,7 +4385,7 @@ span.prefix, label.prefix {
 span.postfix, label.postfix {
   background: #f2f2f2;
   border-left: none;
-  color: #333333;
+  color: #000033;
   border-color: #cccccc; }
   span.postfix.radius, label.postfix.radius {
     border-radius: 0;
