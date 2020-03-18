@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Second Edition X-Wing on Vassal: Hands-on Guide to Playing</title>
+    <title>X-Wing on Vassal: Hands-on Guide to Playing</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
     <style>
@@ -20,7 +20,7 @@
     <nav class="top-bar" data-topbar>
         <ul class="title-area">
             <li class="name">
-                <h1><a href="http://xwvassal.info">Second Edition X-Wing on Vassal</a></h1>
+                <h1><a href="http://xwvassal.info">X-Wing on Vassal</a></h1>
             </li>
             <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
         </ul>
@@ -44,14 +44,14 @@
 <div class="row">
     <div class="large-12 columns">
         <div class="panel">
-           <!--<h3>This tutorial is valid as of: <script type="text/javascript">
+            <h3>This tutorial is valid as of: <script type="text/javascript">
 var currentTime = new Date();
 var month = currentTime.getMonth() + 1;
 var day = currentTime.getDate();
 var year = currentTime.getFullYear();
 var hour = currentTime.getHours();
 var minute = currentTime.getMinutes();
-document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</script>. Written by Mu0n.</h3>-->
+document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</script>. Written by Mu0n.</h3>
         </div>
     </div>
 
@@ -66,7 +66,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#Who">Who made the x-wing vassal module?</a>
             <div id="Who" class="content">
-                Someone named Aiden, who happened to post on afewmaneuvers back in 2012. Since then, the module has seen some work from Buhallin in early 2013 to add some needed features (ship moves with right click menu). The modules are now maintained by Mu0n since August/September of 2013 (wave 3 of first edition, firing arc corrections, length corrections, imperial aces, wave 4, transport, corvette, etc.), with help from theorist, chris B. for art, sigzog for helper ref cards, radarman5 for ship art, gabriel for map packs and silentubiquity for map packs + ship pictures + squad logfiles + side table logfile. A huge set of programmed features (that brought squad autospawn, overlapping backtracking, etc) appeared in early 2017 thanks to the tremendous help from ajmath, haslo, Guido Kessels, yours truly, and many others.
+                Someone named Aiden, who happened to post on afewmaneuvers back in 2012. Since then, the module has seen some work from Buhallin in early 2013 to add some needed features (ship moves with right click menu). The modules are now maintained by Mu0n since August/September of 2013 (wave 3, firing arc corrections, length corrections, imperial aces, wave 4, transport, corvette, etc.), with help from theorist, chris B. for art, sigzog for helper ref cards, radarman5 for ship art, gabriel for map packs and silentubiquity for map packs + ship pictures + squad logfiles + side table logfile. A huge set of programmed features (that brought squad autospawn, overlapping backtracking, etc) appeared in early 2017 thanks to the tremendous help from ajmath, haslo, Guido Kessels, yours truly, and many others.
             </div>
         </dd>
         <dd>
@@ -76,9 +76,9 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             </div>
         </dd>
         <dd>
-            <a href="#empty">Weren't the pilot and upgrade cards empty of stats and text before?</a>
+            <a href="#empty">Why are the pilot and upgrade cards empty?</a>
             <div id="empty" class="content">
-                Players are encouranged to keep supporting Fantasy Flight Games (the creators of X-Wing Miniatures) and that they treat vassal as a complementary way to play the game rather than the main way and prevent any unfortunate loss of business. That being said, as other ways of playing X-Wing proliferated on personal computers, the censorship of cards seemed unnnecessary and was lifted for the Vassal module in 2018 at the onset of Second Edition.
+                To make sure players keep supporting Fantasy Flight Games (the creators of X-Wing Miniatures), that they treat vassal as a complementary way to play the game rather than the main way and prevent any unfortunate loss of business
             </div>
         </dd>
         <dd>
@@ -86,17 +86,19 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             <div id="players" class="content">
                 Players of all time zones come and go. North America, Germany, Singapore, Japan, Australia, France, etc. Just try at another time. If you really want to make sure to find players, you can find them discussing the game we all love in these places:
                 <ul>
-                    <li><a href="https://xwingvassalleagueslack.herokuapp.com/">Vassal League Players Slack Workspace (request an invite)</a></li>
-					<li><a href="https://xwvl.slack.com/">Vassal League Players Slack Workspace (sign in)</a></li>
+                    <li><a href="https://xwingvassalleagueslack.herokuapp.com/">Vassal League Players Slack Channel</a></li>
                     <li><a href="http://www.reddit.com/r/XWingTMG/">Reddit X-Wing page</a></li>
                     <li><a href="http://community.fantasyflightgames.com/index.php?showforum=222">FFG X-Wing forums</a></li>
+                    <li><a href="http://teamcovenant.com/">Team Covenant's community</a></li>
+                    <li><a href="http://boardgamegeek.com/forum/1058867/star-wars-x-wing-miniatures-game/general">Board Game Geek X-Wing forums</a></li>
+                    <li><a href="https://plus.google.com/communities/111561231691521211179">Google+ X-Wing community</a></li>
                 </ul>
             </div>
         </dd>
         <dd>
             <a href="#tourneys">I want to participate in tournaments. How do I find some and sign up?</a>
             <div id="tourneys" class="content">
-                Whenever you log into the Vassal server, pay attention to the text that pops right at the top of the chat window. This will contain a few links about upcoming tournaments and the Vassal league. A big hotspot of active players can be found in the <a href="https://xwingvassalleagueslack.herokuapp.com/">Vassal League Players Slack Workspace (request an invite)</a> - and then, sign in the workspace itself by <a href="https://xwvl.slack.com/">clicking this link</a>.
+                Whenever you log into the Vassal server, pay attention to the text that pops right at the top of the chat window. This will contain a few links about upcoming tournaments and the Vassal league. A big hotspot of active players can be found in the <a href="https://xwingvassalleagueslack.herokuapp.com/">Vassal League Players Slack Channel</a>.
             </div>
         </dd>
     </dl>
@@ -108,15 +110,8 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         </div>
     </div>
     <dl class="accordion" data-accordion>
-		<dd>
-            <a href="#Installing">Installing the Java Runtime Environment</a>
-            <div id="jre" class="content">
-                Go to the Oracle website <h3><a href="https://www.oracle.com/java/technologies/javase-jre8-downloads.html">https://www.oracle.com/java/technologies/javase-jre8-downloads.html</a></h3><p>
-                Most people already have the capability of running Java software on their computers; it's very possible that you don't, however. Therefore, you must install the Java Runtime Environment, provided by Oracle. Windows, Mac OS and Unix users can download this. Google Chromebook users unfortunately can't.
-            </div>
-        </dd>
         <dd>
-            <a href="#Installing">Installing the Vassal client program</a>
+            <a href="#Installing">Installing the program Vassal</a>
             <div id="Installing" class="content">
                 Go to the vassal homepage <h3><a href="http://www.vassalengine.org/">http://www.vassalengine.org/</a></h3><p>
                 Current vassal version: 3.2.17
@@ -125,28 +120,107 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#Where">Where to get the X-Wing vassal module files?</a>
             <div id="Where" class="content">
-			    The best way is to pick it off the X-Wing Module github project page (fastest way to get the latest and greatest version, includes a few patch notes): <a href="https://github.com/Mu0n/XWVassal/releases">https://github.com/Mu0n/XWVassal/releases</a>
-                Alternatively, you can go to the vassalengine x-wing module download page:  <h3><a href="http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game">http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game</a></h3><p>
+                Go to the x-wing module download page:  <h3><a href="http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game">http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game</a></h3><p>
             </div>
         </dd>
         <dd>
             <a href="#need">Which module files are the ones I need?</a>
             <div id="need" class="content">
                 <ul>
-                    <li><b>Star_Wars_X-Wing_Miniatures_Game-x.x.x.vmod</b></li>
+                    <li><b>Star_Wars_X-Wing_Miniatures_Game-7.7.1.vmod</b></li>
                 </ul>
-                <p>Where the 'x.x.x' is the latest version number. That's it. Really. That's the only mandatory file. It contains a few 3x3 starfield maps (classic, light and deep), a teal nebula map (formerly known as blue nebula) and then a bunch of standard black maps (3x3, 4x4, 5x5, 3x6 and 6x3). It contains all ships, pilots, upgrades, tokens, dials currently released in its counterpart tabletop game, and then some, as previews from FFG filter out information to us. Vassal is a great way to try out some of the unreleased, but spoiled stuff from the game.
-                <p>If you want more variety for the maps, there's an optional map pack found in the X-Wing Vassal download page (from the vassalengine website): Universal_Map_Pack_1.0.vmdx. Most people don't have this additional pack and therefore can't profit from its usage even if you do use it.
+                <p>That's it. Really. That's the only mandatory file. It contains a few 3x3 starfield maps (classic, light and deep), a teal nebula map (formerly known as blue nebula) and then a bunch of standard black maps (3x3, 4x4, 5x5, 3x6 and 6x3). It contains all ships, pilots, upgrades, tokens, dials currently released in its counterpart tabletop game, and then some, as previews from FFG filter out information to us. Vassal is a great way to try out some of the unreleased, but spoiled stuff from the game.
+                <p>If you want more variety for the maps, there's an optional map pack found in the X-Wing Vassal download page (where you got the module): Universal_Map_Pack_1.0.vmdx
+            </div>
+        </dd>
+        <dd>
+            <a href="#obsolete">Which module files are obsolete and can be safely discarded? (from previous installations?)</a>
+            <div id="obsolete" class="content">
+                <ul>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.7.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.5.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.5.1.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.5.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.4.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.4.1.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.1.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.1.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.0.7.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.0.5.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.0.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-7.0.1.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.5.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.5.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.5.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.4.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.3.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.3.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.2.6.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.2.4.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.2.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.2.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.2.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.1.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.0.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-6.0.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.7.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.7.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.7.1.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.7.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.6.6.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.6.4.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.6.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.6.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.5.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.4.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.3.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.3.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.3.1.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.3.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.2.3.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.2.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.2.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.1.5.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.1.2.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.1.0.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.0.8.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.0.5.vmod</li>
+                    <li>Star_Wars_X-Wing_Miniatures_Game-5.0.1.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-5.0.0.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.6.0.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.5.1.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.5.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.2.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.1.vmod</li>
+                    <li>Star Wars X-Wing Miniatures Game-4.0.vmod</li>
+                    <li>Star Wars X-Wing -Tournament.vmod</li>
+                    <li>Star_Wars_X-Wing_miniatures_game.vmod</li>
+                    <li>Every "single-ship" extension file, such as A-Wing_Booster_-4.6.0.vmdx </li>
+                </ul>
+                <p>The following map packs (and earlier versions) are no longer supported. Please don't use them anymore.
+                <ul>
+                    <li>Star_Wars_X-Wing_Vassal_Playmats-5.1.2.vmdx</li>
+                    <li>Gabriel's_Map_Pack_-5.0.0.vmdx</li>
+                    <li>Crazy_Toms_Playmats_-5.0.0.vmdx</li>
+                    <li>Yagyu's_Map_Pack_-5.0.0.vmdx</li>
+                </ul>
             </div>
         </dd>
         <dd>
             <a href="#go">Where are the module files supposed to go?</a>
             <div id="go" class="content">
                 Anywhere that's convenient to you. Vassal does NOT impose any special location on your computer.
-				<p>However, many Windows users report a problem whenever the module file is installed in either 1) a network folder or 2) inside the /program files/ directory structure (such as inside the location of the vassal client program).
-				<p>The reason: the Vassal module uses a downloaded copy of the game data to keep things as current as possible and needs to be able to write in the same folder as where the module is located. You may have to edit the writing permissions of Java, or find a better location if this is a problem. The issue is discussed in this thread: <a href="https://github.com/Mu0n/XWVassal/issues/252">https://github.com/Mu0n/XWVassal/issues/252</a>
                 <p>For ease of use and to find your files easily in the future, you can create a
                     folder inside \My Documents\, <br>for example: \My Documents\Vassal\
+                <p><b>Main module file</b>: it ends with a .vmod file extension (as seen in the download page)
+                <p><b>(optional) Map extension files</b>: they end with a .vmdx file extension (as seen in the download page). They will be placed in a subfolder at the location of the main module file, (following the example) in \My Documents\Vassal\[--the module name followed by _ext--]\ when they are properly installed.
+                <p><b>As an example, for version 5.0.5</b>
+                <p>This is the contents of \My Documents\Vassal\
+                <p><img src="./img/properInstall.png">
+                <p><ul>
+                <li>The main module file (.vmod) is in the chosen directory and is called: Star_Wars_X-Wing_Miniatures_Game-5.0.5.vmod</li>
+                <li>The extension module files (.vmdx) are in a subdirectory of the chosen directory; in this case they are map collections</li>
+                <li>(optional) The subdirectory bears the name: "Star_Wars_X-Wing_Miniatures_Game-5.0.5<b>_ext</b>"</li>
             </ul>
             </div>
         </dd>
@@ -156,6 +230,10 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
                 Go into the vassal launcher window, go to File/Open Module...
                 <p><img src="./img/openModule.png">
                 <p>And select your main X-Wing module file. Vassal will then launch it.
+                <p>(optional) If you want to install the map packs immediately, close those new windows and go back to the launcher.
+                    Add the map extensions by right clicking your module name in the launcher window and selecting "Add Extension..."
+                <p><img src="./img/addExtension.png">
+                <p>Do this for all map extensions.
             </div>
         </dd>
         <dd>
@@ -171,6 +249,10 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
                     The fourth step is to go into the vassal launcher window, go to File/Open Module...
                 <p><img src="./img/openModule.png">
                 <p>Vassal will then attempt to launch the module - close those new windows and go back to the launcher.
+                <p>
+                    The fifth step is to add the map extensions by right clicking your module name in the launcher window and selecting "Add Extension..."
+                <p><img src="./img/addExtension.png">
+                <p>Do this for all map extensions.
             </div>
         </dd>
         <dd>
