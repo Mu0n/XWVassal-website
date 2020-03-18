@@ -59,7 +59,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
     <div class="large-12 columns">
         <div class="panel">
             <a class="anchor" name="aboutNav"></a>
-            <h3>About the X-Wing Vassal Module</h3>
+            <h3>About the (unofficial) Second Edition X-Wing Vassal Module</h3>
         </div>
     </div>
     <dl class="accordion" data-accordion>
@@ -126,7 +126,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             <a href="#Where">Where to get the X-Wing vassal module files?</a>
             <div id="Where" class="content">
 			    The best way is to pick it off the X-Wing Module github project page (fastest way to get the latest and greatest version, includes a few patch notes): <a href="https://github.com/Mu0n/XWVassal/releases">https://github.com/Mu0n/XWVassal/releases</a>
-                Alternatively, you can go to the vassalengine x-wing module download page:  <h3><a href="http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game">http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game</a></h3><p>
+                Alternatively, you can go to the vassalengine x-wing module download page: <a href="http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game">http://www.vassalengine.org/wiki/Module:Star_Wars:_X-Wing_Miniatures_Game</a><p>
             </div>
         </dd>
         <dd>
@@ -201,18 +201,20 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             <div id="spawn" class="content">
                 Spawning a squad is done with some help from the known squad builder websites found online. These are a few of the more important ones which are supported:
                 <ul>
-                    <li><a href="https://geordanr.github.io/xwing/">(Yet Another) X-Wing Miniatures Squad Builder (aka YASB)</a></li>
-                    <li><a href="http://xwing-builder.co.uk/build">X-Wing Squadron Builder (aka voidstate)</a></li>
-                    <li><a href="http://x-wing.fabpsb.net/">Fab's Squadron Builder</a></li>
+                    <li><a href="https://raithos.github.io/">(Yet Another) X-Wing Miniatures Squad Builder (aka YASB2)</a></li>
+                    <li><a href="https://squadbuilder.fantasyflightgames.com/">Official X-Wing Squadron Builder from FFG</a></li>
                 </ul>
-                Build a list with these squadrons. Be in a vassal game room, as a numbered player. Open your numbered player window (button showing up as a yellow number on a black square). Click on the Squad Spawn button. Paste your squad's URL. Your squad will spawn inside your player's window.
+                Build a list with these squadrons. Be in a vassal game room (as in, not in the main room but one that was created by you or your would-be opponent), as a numbered player. Open your numbered player window (button showing up as a yellow number on a black square). Click on the '2.0 Squad Spawn' button. Use that window's Method 1 and clear its texbox with its associated 'Clear' button. Paste your squad's URL in the now emptied textbox. Click on the 'Spawn Squad from URL' button. Your squad will spawn inside your player's window.
+				<p><img src="./img/sesquadspawn.png">
+				<p>Alternatively, you can spawn a squad with the xws format (Method 2), which is shared by many squad builders/apps in the community. Follow the instructions on how to do so in the Squad Spawn window itself.
+				<p>Alternatively, you can create and then spawn your own squad using the internal squad builder, which allows mixed faction squads, illegal upgrade slots for ships, etc. This is the only way to create and use wacky combinations that are not allowed in the official ways to play the game.  This is for custom game mode scenarios.
             </div>
         </dd>
         <dd>
             <a href="#values">Editing the values on a ship token</a>
             <div id="values" class="content">
-                When you use the automatic squad spawn, all the stats are normally all entered in. However, there are game effects which alter the stats, so it's good to know how to change these things (including damage reducing your health)
-                Everything can be done in the slowly, but surely way of right clicking on ships and adjusting all the values, one by one:
+                When you use the automatic squad spawn, the Initiative, Shield, Hull, Charge (when applicable) and Force Charge (when applicable) are normally all entered in. However, there are game effects which alter the stats, so it's good to know how to change these things (including damage reducing your health)
+                The easiest way to edit those values is to invoke the ship mouse interface by holding down the ctrl key and left clicking on the ship (assuming it is on the playing map area).
                 <p><img src="./img/editingShip.png">
                 <p>Alternatively, you can use the keyboard shortcuts to do this much faster.
                 <ul>
