@@ -1106,13 +1106,13 @@ button, .button {
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
-    background-color: #e7e7e7;
+    background-color: #c6b8d1;
     border-color: #b9b9b9;
-    color: #333333; }
+    color: #201688; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      background-color: #b9b9b9; }
+      background-color: #c6b8d1; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-      color: #333333; }
+      color: #201688; }
   button.success, .button.success {
     background-color: #43ac6a;
     border-color: #368a55;
