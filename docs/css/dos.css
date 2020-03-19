@@ -144,6 +144,7 @@ nav a:hover {
 .blocks .item {
   width: 100%;
   color: white;
+  max-width: 240px;
   text-align: center;
   background: #000;
   background: rgba(0, 0, 0, 0.5);
