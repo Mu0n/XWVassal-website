@@ -66,7 +66,15 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#Who">Who made the x-wing vassal module?</a>
             <div id="Who" class="content">
-                Someone named Aiden, who happened to post on afewmaneuvers back in 2012. Since then, the module has seen some work from Buhallin in early 2013 to add some needed features (ship moves with right click menu). The modules are now maintained by Mu0n since August/September of 2013 (wave 3 of first edition, firing arc corrections, length corrections, imperial aces, wave 4, transport, corvette, etc.), with help from theorist, chris B. for art, sigzog for helper ref cards, radarman5 for ship art, gabriel for map packs and silentubiquity for map packs + ship pictures + squad logfiles + side table logfile. A huge set of programmed features (that brought squad autospawn, overlapping backtracking, etc) appeared in early 2017 thanks to the tremendous help from ajmath, haslo, Guido Kessels, yours truly, and many others.
+				<p>2012: a user member of afewmaneuvers (now a defunct and long gone community) named 'Aiden Douglass' started the module late in the year.
+				<p>2013: soon abandoned, Buhallin added some time-saving features such as preprogrammed movements from the ship right click menu (ships had to be dragged/dropped/rotated from manually placed templates before)
+				<p>Mu0n took over the module in September to add wave 3 of the first edition and has taken the helm ever since
+				<p>2014: Consolidation into a single module file, added first edition epic ships. Overhaul of ship token design.
+				<p>2015: Bomb Spawner, barrel roll management
+				<p>2016: Overhaul of ship token design. New scum faction.
+				<p>2017: Mu0n figures out with some help from sozin how to add a custom java function to the module - ajmath, haslo, Guido Kessels quickly add automatic ship bump resolution and squad spawning. Later in the year, Mu0n adds firing autoranges
+				<p>2018: Mu0n makes the module get automatic content updates from the web (existing sources + new ones of his making). Second Edition hits and much of the last years of work has to be redone, another overhaul of ship design, 7 factions taken care of with their own colors, tons of arcs added, internal squadron builder added. Spawn token management taken off module in a web databank.
+				<p>2019: Dials with automatic movement and the escrow squad spawn is added, mouse interface for ships replaces TONS of keyboard shortcuts for movement, repositioning, etc. Remotes have their own mouse interface as well.
             </div>
         </dd>
         <dd>
@@ -483,35 +491,21 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             </div>
         </dd>
         <dd>
-            <a href="#mobileturret">How do I use the Lancer-Class Pursuit Craft Mobile turret?</a>
+            <a href="#mobileturret">How do I use turret weapons?</a>
             <div id="mobileturret" class="content">
-                This image explains the shortcuts explicitly. Toggle your firing arc with CTRL-F, in the direction of the cyan mobile turret indicator. Works for all 4 directions. The rotation of the cyan overlay can be done clockwise or counterclockwise.
-                <p><img src="./img/mobileturret.png"></p>
+                In order to rotate a turret weapon, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the turret page of icons and you can find the rotation buttons, as well as the arc graphic toggle.
+                <p><img src="./img/seturret1.png"></p>
+				<p>In order to use autorange with turrets, use the regular arc autorange finders, which are marked as '123' buttons in the first default page of the mouse interface.
+				<p><img src="./img/seturret2.png"></p>
             </div>
         </dd>
         <dd>
-            <a href="#bombs">How do I drop bombs?</a>
+            <a href="#bombs">How do I drop or launch devices?</a>
             <div id="bombs" class="content">
-                The first step is to drop a bomb spawner with CTRL-B (CTRL-SHIFT-B is you want to drop in front of your ship instead). Then, you manipulate the spawner to drop a bomb.
-                <p><img src="./img/Ref-Bomb_guide.png"></p>
-                <ul>
-                    <li>You can change its length by performing the corresponding movement shortcut on it:</li>
-                    <ul>
-                        <li>Forward 1,2,3: Shift-1,2,3</li>
-                        <li>Hard Left 3: Ctrl-Shift-3</li>
-                        <li>Hard Right 3: Alt-Shift-3</li>
-                    </ul>
-                    <li>Next, you choose the bomb token itself:</li>
-                    <ul>
-                        <li>Proximity Mine: Ctrl-M</li>
-                        <li>Seismic Charge: Ctrl-S</li>
-                        <li>Proton Bomb: Ctrl-P</li>
-                        <li>Ion Bombs: Ctrl-I</li>
-                        <li>Conner Net: Ctrl-O</li>
-                        <li>Cluster Mines: Ctrl-L</li>
-                        <li>Thermal Detonators: Ctrl-H</li>
-                    </ul>
-                </ul>
+			In order to use devices from a ship, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the 'tech' page of icons. The launch button is at the top left, while the bomb drop is right below the first.
+			<p><img src="./img/sedevices.png"></p>
+			<p>(bypass the mouse interface with shortcuts: CTRL-B to drop a device and CTRL-SHIFT-B to launch a device)
+			<p>Once either the launch or drop command is given, you'll have a well-placed bomb spawner template in orange, defaulting in a 1-forward shape. While the template is selected, you can right click on it to access the various shapes and/or device token you want to spawn with it.
             </div>
         </dd>
         <dd>
