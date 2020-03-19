@@ -133,8 +133,8 @@ nav a:hover {
   }
 }
 .blocks {
-  width: 100%;
-  max-width: 800px;
+  width: 80%;
+  max-width: 1024px;
   margin: 2rem auto 4rem auto;
   padding: 0 1rem;
   display: flex;
