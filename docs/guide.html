@@ -419,26 +419,23 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#damage">How do you keep track of damage? (combat phase)</a>
             <div id="damage" class="content">
-                Most players keep track of it on the map itself, directly on the ships. You can adjust the relevant ship stats using these shortcuts:
-                <p><ul>
-                <li>Decrease shield value: Ctrl-Alt-S (Alt-S to increase in case you go too far)</li>
-                <li>Decrease Hull value: Ctrl-Alt-H (Alt-H to increase in case you go too far)</li>
-            </ul>
+                The easiest way to edit the shield and hull values is to invoke the ship mouse interface by holding down the ctrl key and left clicking on the ship (assuming it is on the playing map area).
+                <p><img src="./img/shipmousegui.png">
+				<p>(bypassing the mouse interface)
+                <p>Alternatively, you can use the keyboard shortcuts to do it a little faster
+                <ul>
+                    <li>Alt-<b>H</b> to increase hull rating; Ctrl-Alt-<b>H</b> to decrease hull rating</li>
+                    <li>Alt-<b>S</b> to increase shield rating; Ctrl-Alt-<b>S</b> to decrease shield rating</li>
+				</ul>
                 <p>When you take damage to the hull (past shields), the game expects you to draw damage cards. Each player can spawn their own damage deck to their player window, then drag and drop cards from it, to their respective player hands as damage accumulates on the ship. This is on top of modifying the ship values on the ship pieces on the map.
-                <p>As for critical damage, it is customary to draw the appropriate card on the map, flip it (Ctrl-F) there and wait for some acknowledgement from your opponent. On the map, every player can then mouse-hover the card and see a zoomed version of it, allowing to read it easily. If you spawn and flip the card in your player hand window instead, only you can benefit from the mouse-hover zoom.
-            </div>
-        </dd>
-        <dd>
-            <a href="#critical">How do I easily find what critical damage cards do?</a>
-            <div id="critical" class="content">
-                This is a handy reference website from which you can automatically copy the text of any critical card (standard or huge ships) and have it ready for a paste into vassal's chat window (with CTRL-V): <a href="http://xwvassal.info/crits">http://xwvassal.info/crits</a>
+                <p>As for critical damage, it is customary to draw the appropriate card on the map, flip it (Ctrl-F) there and witness the card name being typed in the chat window automatically. On the map, every player can then mouse-over the card and see a zoomed version of it, allowing to read it easily. If you spawn and flip the card in your player hand window instead, only you can benefit from the mouse-over zoom.
             </div>
         </dd>
         <dd>
             <a href="#end">What's the proper way deal with the end phase? (end phase)</a>
             <div id="end" class="content">
                 If you used the ship side action icons (Shift-A, Ctrl-A, etc.): Click on "Reset Actions" at the top of the map window. This will clear all actions on all ships.
-                If you instead moved standalone tokens (ie provided from the automatic squad spawn), you will have to manually remove them from the play area. This is why using the action bars is so much more quicker than spawning and dragging around multiple token chits manually.
+                If you instead moved standalone tokens (ie provided from the automatic squad spawn), you will have to manually remove them from the play area. This is why using the action icons on the side of ships is quicker than spawning and dragging around multiple token chits manually.
             </div>
         </dd>
     </dl>
@@ -481,6 +478,26 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
 			</ul>
             </div>
         </dd>
+		<dd>
+            <a href="#bombs">How do I drop or launch devices?</a>
+            <div id="bombs" class="content">
+			In order to use devices from a ship, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the 'tech' page of icons. The launch button is at the top left, while the bomb drop is right below the first.
+			<p><img src="./img/sedevices.png"></p>
+			<p>(bypass the mouse interface with shortcuts: CTRL-B to drop a device and CTRL-SHIFT-B to launch a device)
+			<p>Once either the launch or drop command is given, you'll have a well-placed bomb spawner template in orange, defaulting in a 1-forward shape. While the template is selected, you can right click on it to access the various shapes and/or device token you want to spawn with it.
+            </div>
+        </dd>
+				<dd>
+            <a href="#rockrange">How do I check the range from an obstacle/remote/device to a ship/other?</a>
+            <div id="rockrange" class="content">
+                While that object is selected, use ctrl-shift-l. This can be used in these several example scenarios, FROM these objects:
+				<ul>
+				    <li><b>Seismic bomb device</b> = verify if an obstacle is within range 1 of it</li>
+					<li><b>Obstacles</b> = verify if a ship is nearby (seismic device scenario, debris gambit range check, etc)</li>
+					<li><b>Remotes</b> = buzz droid range 0 check, drk-1 probe range check</li>
+				</ul>
+            </div>
+        </dd>
     </dl>
 
     <div class="large-12 columns">
@@ -499,17 +516,6 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
                 <p>In order to step through the log, you must click on the right oriented arrow button in the chat window toolbar. Once you've clicked at least once on that button, you can quickly step through using the Page Down key. To step rapidly through the log during slow moments, you can hold down the Page Down key.</p>
             </div>
         </dd>
-		<dd>
-            <a href="#rockrange">How do I check the range from an obstacle/remote/device to a ship/other?</a>
-            <div id="rockrange" class="content">
-                While that object is selected, use ctrl-shift-l. This can be used in these several example scenarios, FROM these objects:
-				<ul>
-				    <li><b>Seismic bomb device</b> = verify if an obstacle is within range 1 of it</li>
-					<li><b>Obstacles</b> = verify if a ship is nearby (seismic device scenario, debris gambit range check, etc)</li>
-					<li><b>Remotes</b> = buzz droid range 0 check, drk-1 probe range check</li>
-				</ul>
-            </div>
-        </dd>
         <dd>
             <a href="#mobileturret">How do I use turret weapons?</a>
             <div id="mobileturret" class="content">
@@ -525,13 +531,13 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
 				</ul>
             </div>
         </dd>
-        <dd>
-            <a href="#bombs">How do I drop or launch devices?</a>
-            <div id="bombs" class="content">
-			In order to use devices from a ship, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the 'tech' page of icons. The launch button is at the top left, while the bomb drop is right below the first.
-			<p><img src="./img/sedevices.png"></p>
-			<p>(bypass the mouse interface with shortcuts: CTRL-B to drop a device and CTRL-SHIFT-B to launch a device)
-			<p>Once either the launch or drop command is given, you'll have a well-placed bomb spawner template in orange, defaulting in a 1-forward shape. While the template is selected, you can right click on it to access the various shapes and/or device token you want to spawn with it.
+		<dd>
+            <a href="#escrow">How do I use the Squad Spawn Escrow feature?</a>
+            <div id="escrow" class="content">
+                You can send your squad to an Escrow service rather than spawn it immediately. This is ideal when you want both squads (yours and your opponent's) to spawn at the same time rather than letting anyone react to a specific list by bringing in a hard counter.
+				<p>In the 2.0 Squad Spawn, rather than clicking on the 'Spawn Squad from URL' (method 1) or 'Spawn Squad from XWS' (method 2), you can instead choose 'Send to Escrow'.
+				<p>This opens up a new Escrow Window where you can check the status of every player's readiness towards a loaded list. When you're ready, click on 'Set'
+				<p><img src="./img/seescrow.png"></p>
             </div>
         </dd>
         <dd>
@@ -560,6 +566,12 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
 					<li><b>alt-left-arrow</b> = turn left 90 degrees, <b>alt-right-arrow</b> = turn right 15 degrees</li>
 					<li><b>ctrl-u</b> = turn 180 degrees</li>
 				</ul>
+            </div>
+        </dd>
+		<dd>
+            <a href="#lastmove">How do I check the last maneuver of a ship at any time?</a>
+            <div id="lastmove" class="content">
+                If the ship had moved at least once in the map, click on the ship and press 'c'. It'll spawn an elongated template behind it. You can delete it when you're done by clicking on it and doing ctrl-d.
             </div>
         </dd>
     </dl>
