@@ -543,6 +543,18 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
     </div>
     <dl class="accordion" data-accordion>
 		<dd>
+            <a href="#contentchecker">My Content Checker button is flashing with a black in the main chat window. What does this mean?</a>
+            <div id="contentchecker" class="content">
+                This means a new chunk of game data has to be downloaded from the net. This can be anything from data mistakes that are being corrected in the community xwing-data2 repository which contain stats, dial ship information, valid upgrade slots, etc. It can also be new pilot/upgrade card graphics, new ship tokens and their corresponding dials, etc. You almost always want to make the X-Wing module up to date with these new elements, so you need to:
+				<p><img src="./img/secontent.png"></p>
+				<ul>
+					<li>Click on the 'Content Checker' button</li>
+					<li>In the Second Edition tab of that window (it is the default one), click on the 'Check for Missing Content' button - this can take a few minutes of delay</li>
+					<li>If there are some elements appearing in the list below, click on the 'Download' button. Again, a few minutes delay is possible here too.</li>
+				</ul>
+            </div>
+        </dd>
+		<dd>
             <a href="#missingtokens">How do I get a specific token?</a>
             <div id="missingtokens" class="content">
 				<p>If you need various second edition tokens (focus, calculate, strain, deplete, etc.), you can get them manually by clicking on the 'Pieces' window and going to the 'SecondEdition' section, Tokens2e tab.
@@ -640,7 +652,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             </div>
         </dd>
         <dd>
-            <a href="#finetune">How do I reposition my ships manually (during setups, after mistakes, etc)?</a>
+            <a href="#finetune">How do I tweak the position and orientation of my ships manually (during setups, after mistakes, etc)?</a>
             <div id="finetune" class="content">
                 In order to fine-tune the position of a ship, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the 'tech' page of icons. In there, you can use the 4 arrow buttons to nudge a ship, pixel by pixel. You can use the rotation icons to rotate a ship 1 degree, 15 degrees, 90 degrees or 180 degrees.
 				<p><img src="./img/sedevices.png"></p>
@@ -652,6 +664,18 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
 					<li><b>alt-left-arrow</b> = turn left 90 degrees, <b>alt-right-arrow</b> = turn right 15 degrees</li>
 					<li><b>ctrl-u</b> = turn 180 degrees</li>
 				</ul>
+            </div>
+        </dd>
+		<dd>
+            <a href="#lastmove">How do I check the last maneuver of a ship at any time?</a>
+            <div id="lastmove" class="content">
+                If the ship had moved at least once in the map, click on the ship and press 'c'. It'll spawn an elongated template behind it. You can delete it when you're done by clicking on it and doing ctrl-d.
+            </div>
+        </dd>
+		<dd>
+            <a href="#mirror">My opponents has the same ships/pilots as I do. How do we make it clearer who has which?</a>
+            <div id="mirror" class="content">
+                You can add a colored dot in the center of a ship and a dial by doing CTRL-M (mirror match) on these objects. It can also be reached via the right click menu. There are several colors to pick from. Repeatedly hit CTRL-M to cycle through your choices.
             </div>
         </dd>
 		<dd>
