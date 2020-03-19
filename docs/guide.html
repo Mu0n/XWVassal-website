@@ -244,6 +244,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
                 The easiest way to edit those values is to invoke the ship mouse interface by holding down the ctrl key and left clicking on the ship (assuming it is on the playing map area).
                 <p><img src="./img/shipmousegui.png">
 				<p>To close the ship mouse interface, click on the big center X or the smaller red x at the center top. Only one ship mouse interface can be opened at once and a given player can only see one's own mouse ship interface.
+				<p>(bypassing the mouse interface)
                 <p>Alternatively, you can use the keyboard shortcuts to do it a little faster
                 <ul>
                     <li>Alt-<b>P</b> to increase initiative rating; Ctrl-Alt-<b>P</b> to decrease initiative rating</li>
@@ -452,7 +453,11 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#shipShipOverlap">A moved ship overlaps another ship. How to resolve this quickly? [VIDEO]</a>
             <div id="shipShipOverlap" class="content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/DuMytInIBSA" frameborder="0" allowfullscreen></iframe>
+			Step 1: Activate the ship, let the overlap happen
+			<p>Step 2: Notice the overlapping ships flash in red color
+			<p>Step 3: Press 'c'
+			<p>Step 4: Select the maneuver template that was spawned to indicate how the ship was handled and delete it with CTRL-D
+                <p><iframe width="560" height="315" src="https://www.youtube.com/embed/DuMytInIBSA" frameborder="0" allowfullscreen></iframe>
             </div>
         </dd>
     </dl>
@@ -460,18 +465,20 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
         <dd>
             <a href="#autorange">How do I easily check the range of a shot?</a>
             <div id="autorange" class="content">
-                <p>Turret / Target Lock: CTRL-SHIFT-L</p>
-                <img src="./img/shortcuts_AR_01.png">
-                <p>Front Arc: CTRL-SHIFT-F</p>
-                <img src="./img/shortcuts_AR_02.png">
-                <p>Back Arc: CTRL-SHIFT-V</p>
-                <img src="./img/shortcuts_AR_03.png">
-                <p>Front Auxiliary Arcs: CTRL-SHIFT-N</p>
-                <img src="./img/shortcuts_AR_04.png"> 
-                <p>Mobile Turret Arc: ALT-SHIFT-F</p>
-                <img src="./img/shortcuts_AR_05.png">
-                <p>Bullseye Arc: CTRL-SHIFT-X</p>
-                <img src="./img/shortcuts_AR_06.png">
+			In order to use the autorange checker for firing arcs, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the default page of icons and you can find autorange buttons marked '123' besides their associated firing arcs.
+			<p>The module also tells you of obstructions related to obstacles in the chat window, as well as a textual report on ranges to other ships.
+			<p><img src="./img/shipmousegui.png">
+			<p>(bypassing the mouse interface)
+			<ul>
+				    <li><b>ctrl-shift-f</b> = Front Arc Autorange</li>
+					<li><b>ctrl-shift-l</b> = 360 degrees target lock Autorange</li>
+					<li><b>ctrl-shift-v</b> = Back Arc Autorange</li>
+					<li><b>ctrl-shift-g</b> = Left Arc Autorange</li>
+					<li><b>alt-shift-g</b> = Right Arc Autorange</li>
+					<li><b>ctrl-shift-x</b> = Bullseye Arc Autorange</li>
+					<li><b>ctrl-shift-n</b> = Front Full-Arc Autorange</li>
+					<li><b>alt-shift-n</b> = Back Full-Arc Autorange</li>
+			</ul>
             </div>
         </dd>
     </dl>
@@ -499,6 +506,12 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
                 <p><img src="./img/seturret1.png"></p>
 				<p>In order to use autorange with turrets, use the regular arc autorange finders, which are marked as '123' buttons in the first default page of the mouse interface.
 				<p><img src="./img/seturret2.png"></p>
+				<p>(bypassing the mouse interface): 
+				<ul>
+				    <li><b>alt-m</b> = rotate turret clockwise</li>
+					<li><b>ctrl-alt-m</b> = rotate turret counter-clockwise</li>
+					<li><b>alt-f</b> = toggle turret arc graphic</li>
+				</ul>
             </div>
         </dd>
         <dd>
@@ -517,7 +530,7 @@ document.write(month + "/" + day + "/" + year + " " + hour + ":" + minute);</scr
             </div>
         </dd>
         <dd>
-            <a href="#finetune">How do I reposition my ships manually (during setups, after mistakes, etc)?/a>
+            <a href="#finetune">How do I reposition my ships manually (during setups, after mistakes, etc)?</a>
             <div id="finetune" class="content">
                 In order to fine-tune the position of a ship, go to the mouse interface (hold down control, left click on the ship, assuming it's on the playing map), into the 'tech' page of icons. In there, you can use the 4 arrow buttons to nudge a ship, pixel by pixel. You can use the rotation icons to rotate a ship 1 degree, 15 degrees, 90 degrees or 180 degrees.
 				<p><img src="./img/sedevices.png"></p>
