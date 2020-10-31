@@ -1,13 +1,14 @@
-September 13th, 2020 X-Wing Vassal news
+October 31th, 2020 X-Wing Vassal news
 
-NEW: Events (leagues and tournaments for Vassal X-Wing) here: https://tinyurl.com/tgdo3gp (Google Calendar)
 Module website is at: http://xwvassal.info
 Tutorial guide for this module: http://xwvassal.info/guide
 
-New v9.1.0 X-Wing module is out. Match it with the latest Vassal client software v3.4.1 from http://vassalengine.org
+New v9.1.5 X-Wing module is out. Match it with the latest Vassal client software v3.4.7 from http://vassalengine.org
 
 The Unofficial X-Wing Vassal League home website (season 10 has ended. Season 11 will start in December 2020): https://listfortress.com/league
 
 Windows players: ctrl(held) + LeftClick on ships (while they are on the map) to access the ship mouse interface (new feature in 2019)
 Mac players: rightmost option(held)-click on ships
 
+SOON: Yasb url spawn will work with the newest October releases - a web service needs to be updated first. Use XWS format instead (method 2) by converting your squad inside YASB first.
+SOON: pilot and upgrade card art can't be fetched yet, but will arrive with a Content Checker flash within days.
